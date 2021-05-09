@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Site made with Mobirise Website Builder v5.2.0, https://mobirise.com -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="/static/assets/images/bst-128x128.png" type="image/x-icon">
+    <meta name="description" content="">
+
+
+    <title>Functionalities</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/tether/tether.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/bootstrap/css/bootstrap-grid.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/bootstrap/css/bootstrap-reboot.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/dropdown/css/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/animatecss/animate.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/socicon/css/styles.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/theme/css/style.css')}}">
+    <link rel="preload" as="style" href="{{url_for('static', filename='assets/mobirise/css/mbr-additional.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/mobirise/css/mbr-additional.css')}}"
+        type="text/css">
+
+
+
+
+</head>
+
+<body>
+
+    <section class="menu menu2 cid-swetwuVP4d" once="menu" id="menu2-1c">
+
+        <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+            <div class="container">
+                <div class="navbar-brand">
+                    <span class="navbar-logo">
+                        <abbr>
+                            <img src="/static/assets/images/bst-128x128.png" alt="Mobirise" style="height: 3rem;">
+                            </a>
+                    </span>
+                    <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-5">BST</a></span>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                        <li class="nav-item"><a class="nav-link link text-black display-4" href="/about">
+                                About us</a></li>
+                        <li class="nav-item"><a class="nav-link link text-black display-4" href="/livedemo">Live
+                                Demo</a></li>
+                        <li class="nav-item"><a class="nav-link link text-black display-4" href="/">Home</a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="header14 cid-swa45T97vl" id="header14-10">
+
+
+
+
+
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-5 image-wrapper">
+                    <img src="/static/assets/images/tree-512x512.png" alt="Mobirise">
+                </div>
+                <div class="col-12 col-md">
+                    <div class="text-wrapper">
+                        <h1 class="mbr-section-title mbr-fonts-style mb-3 display-2"><strong>Binary Search Tree</strong>
+                        </h1>
+                        <p class="mbr-text mbr-fonts-style display-7">Binary Search Tree is a node-based binary tree
+                            data structure which has the following properties:
+                            <br>
+                        </p>
+                        <ul>
+                            <br>
+                            <li>The left subtree of a node contains only nodes with keys lesser than the node’s key.
+                            </li>
+                            <li>The right subtree of a node contains only nodes with keys greater than the node’s key.
+                            </li>
+                            <li>The left and right subtree each must also be a binary search tree.</li>
+                            <li>There must be no duplicate nodes.</li>
+                            <br>
+                        </ul>
+                        <p><strong>Explore</strong></p>
+                        <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-4"
+                                href="functionalities.html#header15-11">Explore Insert</a> <a
+                                class="btn btn-secondary display-4" href="functionalities.html#header15-12">Explore
+                                Delete</a> <a class="btn btn-secondary display-4"
+                                href="functionalities.html#header15-13">Explore Search</a> <a
+                                class="btn btn-secondary display-4" href="functionalities.html#content4-14">Explore
+                                Traversals</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="header15 cid-swa4ISuTwn mbr-parallax-background" id="header15-11">
+
+
+        <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(71, 181, 237);">
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md">
+                    <div class="text-wrapper">
+                        <h2 class="mbr-section-title mb-3 mbr-fonts-style display-5"><strong>Insertion</strong></h2>
+                        <p class="mbr-text mb-3 mbr-fonts-style display-7">A new key is always inserted at the leaf. We
+                            start searching a key from the root until we hit a leaf node. Once a leaf node is found, the
+                            new node is added as a child of the leaf node.<br>
+                            <br> <strong><u>The format to insert is:</u> I (number)</strong><br>
+                            <br> Here I refers to insert command followed by a space and the number to be
+                            inserted.<br><br>The video shows the Insertion in a BST.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="mbr-figure col-12 col-md-5"><iframe class="mbr-embedded-video"
+                        src="https://www.youtube.com/embed/N8uvzBA94Q0?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0"
+                        width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="header15 cid-swa4P2jPJQ mbr-parallax-background" id="header15-12">
+
+
+        <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 232, 133);">
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md">
+                    <div class="text-wrapper">
+                        <h2 class="mbr-section-title mb-3 mbr-fonts-style display-5"><strong>Deletion</strong></h2>
+                        <ul>
+                            <li><strong>Node to be deleted is the leaf:</strong> Simply remove from the tree.</li>
+                            <li><strong>Node to be deleted has only one child:</strong> Copy the child to the node and
+                                delete the child</li>
+                            <li><strong>Node to be deleted has two children:</strong> Find inorder successor of the
+                                node. Copy contents of the inorder successor to the node and delete the inorder
+                                successor. Note that inorder predecessor can also be used.</li>
+                        </ul>
+                        <ul>
+                            <p>The important thing to note is, inorder successor is needed only when the right child is
+                                not empty. In this particular case, inorder successor can be obtained by finding the
+                                minimum value in the right child of the node.</p>
+                        </ul>
+                        <ul>
+                            <p><strong><u>The format to delete is:</u> D (number)</strong><br>
+                                <br> Here I refers to delete command followed by a space and the number to be
+                                inserted.<br>
+                            </p>
+                        </ul>
+                        <p>The video shows the Deletion in a BST</p>
+
+                    </div>
+                </div>
+                <div class="mbr-figure col-12 col-md-5"><iframe class="mbr-embedded-video"
+                        src="https://www.youtube.com/embed/3-avcdwABkQ?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0"
+                        width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="header15 cid-swa4PXoeVe mbr-parallax-background" id="header15-13">
+
+
+        <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(71, 181, 237);">
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md">
+                    <div class="text-wrapper">
+                        <h2 class="mbr-section-title mb-3 mbr-fonts-style display-5"><strong>Searching</strong></h2>
+                        <p class="mbr-text mb-3 mbr-fonts-style display-7">Searching an element in the binary search
+                            tree is basically this traversal in which at each step we will go either towards left or
+                            right and hence in at each step we discard one of the sub-trees.If the key is found,
+                            function returns saying <strong>KEY IS FOUND</strong>. Else <strong>KEY IS NOT
+                                FOUND</strong>.<br>
+                            <br> <strong><u>The format to search is:</u> S (number)</strong><br><br> Here S refers to
+                            search command followed by a space and the number to be inserted.<br><br>The video shows the
+                            Searching in a BST.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="mbr-figure col-12 col-md-5"><iframe class="mbr-embedded-video"
+                        src="https://www.youtube.com/embed/VRvOuGGCg5s?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0"
+                        width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content4 cid-swadOTWaEV mbr-parallax-background" id="content4-14">
+
+        <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 225, 97);">
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="title col-md-12 col-lg-10">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-5">
+                        <strong>Traversals</strong></h3>
+                    <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">
+                        <p><strong>&nbsp; Post Order Traversal:</strong></p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The format for
+                            postorder is: <strong>POS (number)</strong></p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here POS refers to
+                            postorder command followed by a space and the number to be inserted.<br><br><strong>&nbsp;
+                                Pre Order Traversal:
+                            </strong></p>
+                        <p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </strong>The format for postorder
+                            is:<strong> PRE (number)
+                            </strong></p>
+                        <p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </strong>Here PRE refers to preorder
+                            command followed by a space and the number to be inserted.
+                        </p>
+                        <p><strong>&nbsp; In Order Traversal:
+                            </strong></p>
+                        <p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong> The format for inorder is:<strong>
+                                IN (number)
+                            </strong></p>
+                        <p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </strong>Here IN refers to inorder command
+                            followed by a space and the number to be inserted.
+                        </p>
+                    </h4>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer3 cid-sw9KGr7er0" once="footers" id="footer3-w">
+
+
+
+
+
+        <div class="container">
+            <div class="media-container-row align-center mbr-white">
+                <div class="row row-links">
+                    <ul class="foot-menu">
+
+
+
+
+
+                        <li class="foot-menu-item mbr-fonts-style display-7"><a
+                                href="mailto:cb.en.u4cse18163@cb.students.amrita.edu" class="text-primary">MAIL-Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="row row-copirayt">
+                    <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
+                        © Copyright 2021 Group 4 BST. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section
+        style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;">
+        <a href="https://mobirise.site/v" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a>
+        <p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Page was <a href="https://mobirise.site/g"
+                style="color:#aaa;">started</a> with Mobirise</p>
+    </section>
+    <script src="{{url_for('static', filename='assets/web/assets/jquery/jquery.min.js')}}"></script>
+    <script src="{{url_for('static', filename='assets/popper/popper.min.js')}}"></script>
+    <script src="{{url_for('static', filename='assets/tether/tether.min.js')}}"></script>
+    <script src="{{url_for('static', filename='assets/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{url_for('static', filename='assets/smoothscroll/smooth-scroll.js')}}"></script>
+    <script src="{{url_for('static', filename='assets/dropdown/js/nav-dropdown.js')}}"></script>
+    <script src="{{url_for('static', filename='assets/dropdown/js/navbar-dropdown.js')}}"></script>
+    <script src="{{url_for('static', filename='assets/touchswipe/jquery.touch-swipe.min.js')}}"></script>
+    <script src="{{url_for('static', filename='assets/viewportchecker/jquery.viewportchecker.js')}}"></script>
+    <script src="{{url_for('static', filename='assets/parallax/jarallax.min.js')}}"></script>
+    <script src="{{url_for('static', filename='assets/theme/js/script.js')}}"></script>
+
+    <input name="animation" type="hidden">
+</body>
+
+</html>
